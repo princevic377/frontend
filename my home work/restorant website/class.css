@@ -1,0 +1,873 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    background-image: url(image/backgroud.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.sub-heading-one{
+    font-size: 25px;
+    color: brown;
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes slidein {
+    from{
+        transform: translateY(-120px);
+        font-size: 15px;
+    }
+    to{
+        transform: translateY(3px);
+    }
+}
+
+
+@keyframes click {
+    from{
+        transform: translateX(-120px);
+    }
+    to{
+        transform: translateX(3px);
+    }
+}
+
+
+
+
+.sub-heading-two{
+    font-size: 25px;
+    color: white;
+    animation-name: click;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+
+}
+
+
+.overlay p{
+font-size: larger;
+color: aliceblue;
+padding: 8px;
+animation-name: click;
+animation-duration: 5s;
+animation-timing-function: linear;
+}
+
+
+.overlay{
+background-color:rgb(0, 0, 0, 0.5);
+height: 100vh;
+}
+
+@keyframes team{
+    from{
+        transform: translateY(120px);
+    }
+
+    to{
+        transform: translateY(3px);
+    }
+}
+
+ 
+
+
+
+.btn{
+    margin: 20px;
+    width: 150px;
+    padding: 8px;
+    background-color: transparent;
+    border-color: gold;
+    border-style: solid;
+    color: white;
+    animation-name: team;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+
+
+
+
+
+}
+.btn:hover{
+    background-color: goldenrod;
+    transition: 2s;
+}
+
+
+.great-section{
+    background-image: url(anh-nguyen-kcA-c3f_3FE-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
+
+.pen{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pen-2{
+   color:black;
+   text-align: center;
+   padding-block: 12px; 
+   font-size: 20px;
+   
+}
+
+.pen-3{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bnm{
+margin: 20px; 
+width: 120px;
+padding: 8px;
+background-color: white;
+border-color: gray;
+border-style:solid ;
+color: gray;
+border: none;
+
+}
+
+.pen-4{
+    text-align: center;
+}
+
+.bnm:hover{
+    background-color:gold;
+    transition: 2s;
+}
+
+.sub-section{
+    background-color: aliceblue;
+    padding:27px ;
+    text-align: center;
+    
+}
+
+.sub-section img{
+    width: 80px;
+}
+
+
+.sub-section h3{
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.sub-section p{
+    color: gray;
+}
+
+.sub-section div{
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.time-box{
+    background-color: azure;
+    width: 400px;
+    padding: 20px;
+}
+
+.time-box h2{
+    color: black;
+}
+
+.time-box h4{
+    color: goldenrod;
+}
+
+.time-box p{
+    color: gray;
+}
+
+.time-box button{
+    margin: 20px;
+    width: 100px;
+    padding: 7px;
+    border-width:3px;
+    border-style:solid;
+    border-color: gray;
+    background: whitesmoke;
+    color: black;
+}
+
+.settings{
+    width: 54px;
+    color: rgb(212, 16, 212);
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes spin{
+    0%{
+        transform: rotate(-360deg);
+        color: seagreen;
+    }
+    50%{
+        color: red;
+
+    }
+    80%{
+        transform: rotate(70deg);
+    }
+}
+
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.menu-2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.suit-section-one{
+    color: aliceblue;
+    font-size:40px ;
+    text-align: center;
+
+}
+
+.suit-section-two{
+    color:beige;
+    text-align: center;
+    
+}
+
+.none-section{
+    border-width: 3px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 140px;
+    background-color:rgb(119, 115, 115);
+    
+    
+    
+    
+    
+    
+}
+
+.none-section h3{
+    color: goldenrod;
+
+    
+}
+
+.none-section p{
+    color: aliceblue;
+}
+
+
+.one-section{
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    width: 140px;
+    background-color: black;
+    
+
+}
+
+.one-section h3{
+    color: aliceblue;
+}
+
+.one-section p{
+    color:beige
+}
+
+.two-section{
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    width: 140px;
+    background-color: black;
+}
+
+.two-section h3{
+    color: aliceblue;
+}
+
+.two-section p{
+    color: beige;
+}
+
+.cool-section{
+    background-color: grey;
+    height: 40vh;
+}
+
+.three-section{
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    width:140px ;
+    background-color: black;
+    
+}
+
+.three-section h3{
+    color: aliceblue;
+}
+
+.three-section{
+    color: beige;
+}
+
+.four-section{
+    border-style: solid;
+    border-color:transparent;
+    border-width: 3px;
+    width: 140px;
+    background-color: black;
+}
+
+
+.four-section h3{
+    color: aliceblue;
+}
+
+.four-section{
+    color: beige;
+}
+
+
+.fine{
+    background-image: url(firstpizza.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.fine:hover{
+transform: scaleX(1.2);
+}
+
+.overlay1{
+    background-color: rgba(10, 9, 9, 0.6);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    transition: transform 2s;
+}
+
+
+
+.overlay1:hover{
+    background-color: rgb(238, 238, 139, 0.5);
+    transform: scaleX(1.2);
+}
+
+.fine h3{
+    color: aliceblue;
+    font-size:xx-large;
+    
+    
+}
+
+
+.fine p{
+color: goldenrod;
+
+}
+
+
+
+.overlay2{
+    background-color: rgba(10, 9, 9, 0.6);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+    
+
+
+}
+
+.overlay2:hover{
+    background-color: rgba(238, 238, 139,  0.5);
+    transform: scaleX(1.2);
+}
+
+
+.good{
+    background-image: url(image/soup.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.good:hover{
+    transform: scaleX(1.2);
+}
+
+
+
+.good h3{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.good p{
+    color: goldenrod;
+}
+
+.overlay3{
+    background-color: rgba(66, 66, 63, 0.5);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.overlay3:hover{
+    background-color: rgba(128, 128, 33, 0.5);
+    transform: scaleX(1.2);
+}
+
+.mine{
+    background-image: url(kabab.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.mine:hover{
+    background-color: rgba(65, 65, 59, 0.5);
+    transform: scaleX(1.2);
+}
+
+
+.mine h3{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.mine P{
+    color: goldenrod;
+}
+
+.setup{
+    background-image: url(image/stack.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.overlay4{
+    background-color: rgba(83, 83, 76, 0.5);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+       
+}
+
+.overlay4:hover{
+    background-color: rgb(238, 238, 139, 0.5);
+}
+
+.setup:hover{
+    background-color: rgba(250, 250, 11, 0.5);
+    transform: scaleX(1.2);
+}
+
+
+
+
+
+.setup h3{
+    color: lavenderblush;
+    font-size: xx-large;
+}
+
+.setup P{
+    color: goldenrod;
+}
+
+.cod{
+    background-image: url(image/buger.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.overlay5{
+    background-color: rgba(73, 73, 69, 0.5);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.overlay5:hover{
+    background-color: rgb(238, 238, 139, 0.5)
+}
+
+.cod:hover{
+    background-color: rgba(65, 65, 59, 0.5);
+    transform: scaleX(1.2);
+}
+
+.cod h3{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.cod P{
+    color: goldenrod;
+}
+
+
+
+.con{
+    background-image: url(image/subway.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.overlay6{
+    background-color: rgba(83, 83, 78, 0.5);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.overlay6:hover{
+    background-color: rgb(238, 238, 139, 0.5);
+}
+
+.con:hover{
+    background-color: rgba(10, 9, 9, 0.6);
+    transform: scaleX(1.2);
+}
+
+
+.con h3{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+
+.con p{
+    color:goldenrod
+}
+
+
+.bus{
+    background-image: url(image/pizza.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s;
+}
+
+.overlay7{
+    background-color: rgba(90, 90, 85, 0.5);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.overlay7:hover{
+    background-color: rgb(238, 238, 139, 0.5);
+}
+
+.bus:hover{
+    background-color: rgb(238, 238, 139, 0.5);
+    transform: scaleX(1.2);
+}
+
+.bus h3{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.bus P{
+    color: goldenrod;
+}
+
+
+@media screen and (min-width:768px){
+.sub-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .pen-2{
+width: 400px;
+font-size: medium;
+
+    }
+    .pen-3{
+        width: 400px;
+        font-size: medium;
+    }
+    .pen{
+        width: 400px;
+        font-size: medium;
+    }
+    .pen-4{
+        width: 400px;
+        font-size: medium;
+    }
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav-label div {
+    width: 30px;
+    background-color: chartreuse;
+    padding: 3px;
+    margin: 3px;
+}
+
+#menu:checked~ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(111, 177, 235);
+    position: fixed;
+    top: 85px;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+#menu:checked~.nav-label .middle {
+    display: none;
+}
+
+#menu:checked~.nav-label .top {
+    transform: rotate(45deg) translateY(10px);
+    transition: 3s;
+}
+
+#menu:checked~.nav-label .bottom {
+    transform: rotate(-45deg) translate(-2px, -6px);
+    transition: 3s;
+}
+
+
+
+.tin h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.tin p{
+    color: grey;
+    text-align: center;
+}
+
+
+
+
+.split-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.split-one h3{
+    font-size: medium;
+    text-align: center;
+    color: goldenrod;
+}
+
+.split-one p{
+    color: grey;
+    font-size: larger;
+    margin: 19px;
+    padding: 12px;
+}
+
+.split-one img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.split-one h4{
+    font-size: small;
+    color: black;
+    text-align: center;
+}
+
+.split-two{
+  display: flex; 
+  justify-content: center;
+}
+
+
+
+.term-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.term-1 h3{
+    font-size: medium;
+    color: goldenrod;
+    text-align: center;
+
+}
+
+.term-1 p{
+  margin: 19px;  
+  padding: 12px;
+  font-size: larger;
+}
+
+.term-1 img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+
+}
+
+.term-1 h4{
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+
+.term-2{
+  display: flex;
+  justify-content: center;
+  fill: gold;
+  
+  
+}
+
+
+
+
+.some-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.some-one h3{
+    font-size: medium;
+    color: goldenrod;
+    text-align: center;
+}
+
+.some-one p{
+    margin: 12px;
+    padding: 19px;
+    font-size: larger;
+    color: grey;
+}
+
+.some-one img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.some-one h4{
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+
+.some-two{
+    display: flex;
+    justify-content: center;
+}
+   
+
+
+
+
+
+
+
+

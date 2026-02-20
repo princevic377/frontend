@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>what new in python 3.14</title>
+    <h1>what's new in python 3.14</h1>
+
+    <p><strong>Editor:</strong><br>adam turner and hugo van kemende</p>
+
+    <section>
+        <p>this article explaains the new features in python 3.14, compared to 3.13
+            python 3.14 was released on 7 october 2025.for full detail, see the changelog</p>
+
+            <P>see also pEp 745 - python 3.14 released schedule</P>
+    
+    </section>
+
+    <section>
+        <h2>summary - released highlight</h2>
+
+        <p>
+            python 3.14 is the latest stable released of the python programing language,with a mix of change to the language the implementation,and the standard library.the bigest chane include template string literals,deferred evaluation of annotation,and support for subinterpreters in the standdard library.
+        </p>
+
+        <p>
+            the library change include signnificantly improve capabilities for introspection in asyncio,support for zstandard via a new compression.zstd module,syntax highlight in the REPL,as well as the usual deprecation and removals,and improvement in user-friendliness and correctness.
+        </p>
+
+        <p>
+            this article doesn't attempt to provide a complete spectification of all new features,but instead gives a convenient overview.
+            for full details refers to the documentation,such as the library refrence and language refrance. to understand the complete implementation and design rationle for a change, refers to the PEP for a paticular new festures,but note that PEP usually are not kept up to date once a features has been fully implemented.see porting to python 3.14 for guidance on up from earlier version of python.
+        </p>
+    </section>
+<hr>
+    <section>
+        <h2>interpreter improvement</h2>
+        <ul>
+<li>PEP 649 and PEP 749:  defrence evalution of annotation</li>
+<li>PEP 734:  multiple interpreters in the standard library</li>
+<li>PEP 750 template strings</li>
+<li>PEP 758 allow except and except* expression without brakets</li>
+<li>PEP 765 controls flows in finally blocks</li>
+<li>768 safe exsternal debugger interface for cpython</li>
+<li>A new type of interpreter </li>
+<li>free- threaded mode improvement</li>
+<li>improve error messages</li>
+<li>incremental garbage collection</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>significant improvement in the standard library</h2>
+         
+        <li>PEP 784: Zstandard support in the standard libarry </li>
+        <li>asyncio introspection cababilities </li>
+        <li>concurrent safe warning control</li>
+        <li>syntax highlighting in the default intreactive shell,and colour output in several librsry CLIs</li>
+    </section>
+
+    <section>
+        <h2>C API improvement</h2>
+
+        <ul>
+            <li>PEP 776: Emscripten is now an official supporrted platform ,at tier 3. </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>release changes:</h2>
+        <ul>
+            
+                <li>
+                    <a href="">binary releases for android are now provided</a>
+                </li>
+                <li>
+                    <a href="">windows and macOS binnary release new support ed</a>
+                </li>
+            
+        </ul>
+
+    <section>
+        <h2>NEW features</h2>
+
+        <h3>PEP 649 & 749: Deferred evaluatoin of annotations</h3>
+
+        <p>
+            the annotation on function ,classes , and . instead ,annotations are no konger stored in special-purpose annotate function and evaluated only when neceessary (except if from future import annotatios is used).
+
+         
+            this change is designed to improve pwrformance and usability of annotation in python in most circumstances. but it remain possible to introspect annotation at runtime. it is no longer neccessary to enclose annotation in string if they contain forward referance.
+
+            the new annotation lib module provide tools for inpecting defferred annotation .annotation may be evajuated in the value format (which evaluated annotation to runtime value , similar to the behavior in earlier python version) , the forwardref format (which replace undefined name with special market  ) , and the string format (which return annotation as strings)
+        </p>
+    </section>
+</head>
+</html>

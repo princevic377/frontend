@@ -1,0 +1,26 @@
+.but{
+    margin: 20px;
+    width: 150px;
+    padding: 8px;
+    background-color:green ;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+h2{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.contain{
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
