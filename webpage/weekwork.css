@@ -1,0 +1,515 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.nav-label div{
+width: 25px;
+margin: 5px;
+padding: 4px;
+background-color: black;
+
+}  
+
+.nav-label{
+
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.ul-list{
+    font-size: 20px;
+    display: none;
+    list-style: none;
+}
+
+#menu:checked ~ ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    position: fixed;
+    top: 55px;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.hero{
+    background-color: azure;
+}
+
+.hero-text h1{
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.hero-text span{
+    color: green;
+
+    
+}
+
+.hero-text p{
+    color: gray;
+    margin: 20px;
+    
+}
+
+.bnt-hero{
+    width: 70px;
+    margin: 15px;
+    padding: 5px;
+    background-color:green ;
+    border-style: solid;
+    border-color: greenyellow;
+    color: aliceblue;
+}
+
+.sec-one {
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.sec-one span{
+    color: grey;
+    font-size: small;
+    
+    
+}
+
+.sec-two{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3 {
+color: black;
+font-size: x-large;
+text-align: center;
+    
+}
+
+.sec-3 span{
+  font-size: small;  
+  color: grey;
+  
+}
+
+.sec-4{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.con{
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px;
+    height: 55vh;
+    
+}
+
+.con h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.con p{
+    font-size: 30px;
+}
+
+
+
+.sec-5{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tom{
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px;
+    height: 55vh;
+}
+
+.tom h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tom p{
+    font-size: 30px;
+}
+
+
+
+.sec-6{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tree{
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow:0 8px 20px;
+    height: 55vh;
+}
+
+.tree h3{
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.tree p{
+    font-size: 30px;
+    
+
+}
+
+.sec-7 h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.sec-7 p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.sec-7 button{
+    width: 100px;
+    padding: 8px;
+    border-style: solid;
+    border-color: green;
+    background-color: green;
+    color: aliceblue;
+}
+
+
+.sec-8{
+    background-color: azure;
+}
+
+.tin h2{
+    font-size: 25px;
+    padding: 0;
+    margin: 8px;
+}
+
+.tin h3{
+   padding: 0; 
+   margin: 8px;
+   font-size: 25px;
+   color: green;
+}
+
+.tin p{
+    margin: 8px;
+    color: grey;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.start h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.start p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.contain{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 120px;
+}
+
+
+.bom h2{
+    font-size: 35px;
+    padding: 3px;
+}
+
+
+.bom p{
+    color: gray;
+}
+
+.bom button{
+    width: 100px;
+    padding: 8px;
+    border-color: green;
+    border-style: solid;
+    background-color: green;
+    color: aliceblue;
+}
+
+.sec-10{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+.ham p{
+color: grey;
+}
+
+.ham h3{
+    color: green;
+}
+
+.hom p{
+    color: green;
+}
+
+.hom{
+    display: flex;
+    padding: 8px;
+}
+
+.rom h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.rom p{
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+}
+
+.cid{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   
+}
+
+.card{
+    position: relative;
+    width: 420px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    height: 50vh;
+}
+
+.cad{
+ padding: absolute; 
+ left: 50%;  
+ bottom: 50%;
+ transform: translate();
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: 0 10px 25px;
+}
+
+.cad h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.cod{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: 600;
+    display: inline-flex;
+    text-align: center;
+    gap: 8px;
+}
+
+.sec-12{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+}
+
+.lon h2{
+    font-size:50px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lon button{
+    width: 100px;
+    padding: 7px;
+    display: block;
+    margin: auto;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+    color: white;
+}
+
+
+.sec-13{
+    background-color:rgb(18, 18, 22);
+    
+}
+
+.class{
+    padding: 8px;
+    
+}
+
+.class h3{
+    font-size: 20px;
+    color: white;
+}
+
+.class p{
+    color:gray;
+}
+
+
+.class button{
+    font-size: 20px;
+    padding: 2px;
+    background-color: grey;
+    background-color:grey ;
+    border-style: solid;
+    color: azure;
+
+}
+
+
+@media screen and (min-width:1024px){
+.hero-section{
+padding: 50px 5%;
+display: flex;
+
+} 
+
+.hero-text h1{
+    font-size: 36px;
+}
+
+.hero-text p{
+    font-size: 12px;
+}
+
+.hero-img{
+    width: 600px;
+    
+}
+
+
+
+.sec-four{
+    display: flex;
+    gap: 30px;
+}
+
+.sec-two{
+    justify-content: space-between;
+}
+.sec-3 h3{
+    font-size: 30px;
+}
+
+.sec-7{
+padding: 60px 6%;
+display: flex;
+
+}
+.buh h3{
+    font-size: 40px;
+}
+
+.buh p{
+    font-size: 20px;
+    
+}
+
+.bon{
+    width: 350px;
+}
+
+.sec-8{
+    padding: 60px 6%;
+    display: flex;
+}
+
+.bom h3{
+    font-size: 36px;
+}
+
+.bom p{
+    font-size: 20px;
+}
+
+.sec-10{
+    padding: 60px 6%;
+    display: flex;
+
+}
+.ham p{
+    font-size: 25px;
+}
+
+.sec-13{
+    display: flex;
+    padding: 60px;
+    gap: 10px;
+}
+
+.rom p{
+    font-size: 20px;
+}
+
+
+}
